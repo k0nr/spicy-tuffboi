@@ -27,6 +27,11 @@ body {
     top: -128px;
 }
 
+.bars {
+    position: relative;
+    width: 1024px;
+    top: 576px;
+
 .chop-container {
     position: -webkit-sticky;
     position: sticky;
