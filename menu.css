@@ -11,27 +11,28 @@ body {
 
 }
 
-
-
 .container {
     position: relative;
     width: 100%;
-
+    padding: 0px;
+    margin: 0px;
 }
 
 .top {
-    position: relative;
     width: 1024px;
     position: -webkit-sticky;
     position: sticky;
-    top: -128px;
+    top: -156px;   
 }
+
+
 
 .bars {
     position: relative;
     width: 1024px;
-    top: 576px;
-
+    top: -32px;
+}
+    
 .chop-container {
     position: -webkit-sticky;
     position: sticky;
@@ -44,6 +45,22 @@ body {
 .middle {
     position: relative;
     height: 800vh;
+    width: 1024px;
+    background-image:url("images/guillotine/chop-sides-small.png");
+    background-repeat: repeat-y;
+}
+
+.topsies {
+   position: sticky;
+   position: -webkit-sticky;
+   top: -158px;
+   width: 1024px;
+   
+}
+
+.sidebars {
+    background-image:url("images/guillotine/chop-sides-small.png");
+    background-repeat: repeat-y;
 }
 
 .chop-img {
@@ -52,10 +69,20 @@ body {
   
 }
 
-.bottom {
+.bott {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -320px;
+    width: 1024px;
+
+}
+
+
+.botto-space {
     position: relative;
-    bottom: 0px;
     height: 200vh;
 }
+
+    
 
 </style>
