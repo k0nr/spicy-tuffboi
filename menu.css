@@ -138,6 +138,25 @@ height:100%;
     
 }
 
+.credits {
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+    left: 20%;
+  
+    
+}
+
+ .contact {
+	  position: fixed;
+	bottom: 0;
+	right: 0;
+	border: 10px solid black;
+    width: 200px;
+    }
+
 .landing {
     position: -webkit-sticky;
     position: sticky;
