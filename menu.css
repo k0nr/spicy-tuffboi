@@ -88,7 +88,7 @@ height:100%;
 
 .middle {
     position: relative;
-    height: 800vh;
+    height: 650vh;
     width: 1024px;
 }
 
@@ -127,9 +127,9 @@ height:100%;
     top: 0px;
     height: 200vh;
     width: 100vw;
-    background-color: black;   
     z-index: 0;
-
+    background: url("images/stars.png");
+    background-repeat: repeat;
     
 }
 
