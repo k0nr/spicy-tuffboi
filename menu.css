@@ -3,13 +3,14 @@
 html {
     height: 100%;
     width: 100%;
+   
 }
 
 body {
     cursor: url('images/cursor.cur'), default;
-        background: url('images/clouds.png');
-        background-repeat: repeat;
-
+        
+ margin: 0;
+    padding: 0;
 
 }
 
@@ -18,6 +19,8 @@ body {
     width: 100%;
     padding: 0px;
     margin: 0px;
+    background: url('images/clouds.png');
+        background-repeat: repeat;
 }
 
 .top {
