@@ -146,11 +146,12 @@ height:100%;
 .dong {
     position: -webkit-sticky;
     position: sticky;
-    top: -40px;
+    top: -44px;
     left: 0px;
     z-index: 99;
     width: 100%;
     margin-top: -310px;
+    margin-bottom: -10px;
 }
     
 
