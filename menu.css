@@ -7,7 +7,9 @@ html {
 
 body {
     cursor: url('images/cursor.cur'), default;
-    
+        background: url('images/clouds.png');
+        background-repeat: repeat;
+
 
 }
 
@@ -51,7 +53,8 @@ height:100%;
     width: 80%;
     position: relative;
     left: 20%;
-    padding-top: 100px;
+    padding-top: 400px;
+    padding-bottom: 400px;
 }
 
 .headshot {
@@ -61,7 +64,12 @@ height:100%;
 
 
 
-
+.playlist {
+    width: 70%;
+    position: relative;
+    left: 20%;
+    padding-bottom: 250px;
+}
 
 .bars {
     position: relative;
