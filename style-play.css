@@ -82,5 +82,22 @@ height:60%;
  text-align:center;
  display:block;
 }
-	
+
+a:link {
+    color: #3a1baa;
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+    color: #821baa;
+
+}
+
+a:visited {
+    color: #3a1baa;
+    text-decoration: none;
+    
+}
+	
+
