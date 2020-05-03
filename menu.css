@@ -21,6 +21,7 @@ body {
     margin: 0px;
     background: url('images/clouds.png');
         background-repeat: repeat;
+    z-index: 0;
 }
 
 .top {
@@ -91,7 +92,7 @@ height:100%;
 
 .middle {
     position: relative;
-    height: 650vh;
+    height: 450vh;
     width: 1024px;
 }
 
@@ -124,11 +125,12 @@ height:100%;
 }
 
 
+
 .botto-space {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    height: 200vh;
+    height: 420vh;
     width: 100vw;
     z-index: 0;
     background: url("images/stars.png");
