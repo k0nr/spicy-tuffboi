@@ -195,4 +195,24 @@ a:visited {
     
 }
 
+#warning-message { display: none; 
+background-color: black;
+color:white;
+font-size:30px;
+}
+
+@media only screen and (orientation:portrait){
+#wrapper { display:none; }
+#warning-message { display:block; }
+
+ }
+
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
+    
+    
+
+
 </style>
